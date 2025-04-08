@@ -12,7 +12,7 @@ pipeline {
  
         stage('Clone') {
             steps {
-                sh 'git clone -b master https://github.com/kartiksiriya27/task.git'
+                sh 'git clone -b master https://github.com/kartiksiriya27/hooks.git'
             }
         }
  
